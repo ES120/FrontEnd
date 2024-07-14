@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url(Fonts/Satoshi-Regular.ttf)
+}
+
+body{
+    font-family: 'Satoshi-Regular';
+    background-color:#305996;
+}
+
+.maincontainer{
+    background-color: white;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 50%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right:  2rem;
+}
+
+#description{
+    width: 65%;
+    text-align: center;
+    margin: auto;
+}
+
+header{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.formcontainer{
+    display:block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.formcontainer label {
+    display:block;
+    margin-top: 1.25rem;
+}
+
+.formcontainer input, .formcontainer select{
+    margin-top: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    height: 2rem;
+    font-family: 'Satoshi-Regular';
+}
+
+.checkboxcontainer{
+    display:block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.checkboxcontainer label{
+    display: block;
+}
+
+.formcontainer textarea{
+    height: 5rem;
+    width: 100%;
+    font-family: 'Satoshi-Regular';
+    box-sizing: borderbox;
+}
+
+.formcontainer button{
+    width: 100%;
+    height: 3rem;
+    font-family: 'Satoshi-Regular';
+    margin-top: 2rem;
+    background-color: #305996;
+    color: white;
+    font-size: large;
+}
+
+.formcontainer input placeholder{
+    margin-left: 1rem;
+}
