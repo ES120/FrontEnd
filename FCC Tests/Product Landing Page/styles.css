@@ -1,0 +1,83 @@
+
+@font-face {
+    font-family: "Satoshi-Regular";
+    src: url(Assets/Satoshi-Regular.otf);
+}
+
+@font-face {
+    font-family: "Satoshi-Medium";
+    src: url(Assets/Satoshi-Regular.otf);
+}
+
+
+@font-face {
+    font-family: "Satoshi-Bold";
+    src: url(Assets/Satoshi-Regular.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h3{
+    font-family: "Satoshi-Regular", sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+h1, h2{
+    font-family: "Satoshi-Medium",;
+    font-weight: lighter;
+}
+
+nav{
+    background-color: #727DDD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 30px 0 20px;
+}
+
+#logo{ 
+    height: 50px;
+}
+
+a{
+    margin: 0px 10px;
+    text-decoration: none;
+    font-family: 'Satoshi-Regular';
+    font-size: 23px;
+    color: white;
+}
+
+h1{
+    font-family: "Satoshi-Regular";
+    font-size: 80px;
+}
+
+section{
+    margin: 7vh 0;
+}
+
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #727DDD;
+    padding: 40px 40px;
+    height: 75svh;}
+
+#hero-image{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    right: 0;
+}
+
+.text-wrapper{
+    margin: 200px 0;
+}
+

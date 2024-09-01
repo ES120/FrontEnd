@@ -1,0 +1,43 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.title-wrapper{
+    background-color: rgb(9, 9, 46);
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gallery-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery-wrapper img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery::after {
+    content: "";
+    width: 350px;
+  }
+  

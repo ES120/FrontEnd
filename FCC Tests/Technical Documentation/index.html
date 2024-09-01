@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css ">
+</head>
+<body>
+    <main id = "main-doc">  
+        <nav id = "navbar">
+                <header id = "logo">FreeCodeCamp</header>
+                <hr>
+                <a class = "nav-link" href="#Introduction">Introduction</a>
+                <hr>
+                <a class = "nav-link" href="#HTML">HTML</a>
+                <hr>
+                <a class = "nav-link" href="#HTML_Example">HTML Example</a>
+                <hr>
+                <a class = "nav-link" href="#CSS">CSS</a>
+                <hr>
+                <a class = "nav-link" href="#CSS_Example">CSS Example</a>
+                <hr>
+        </nav>
+        <section class = "main-section" id = "Introduction">
+            <header>Introduction</header>
+            <p>Diving into freeCodeCamp has been a transformative journey for me. I started with little more than curiosity and quickly found myself engrossed in its structured, hands-on curriculum. Each lesson, from the basics of HTML and CSS to more advanced topics like JavaScript algorithms and React, pushed me to think critically and apply what I learned through practical projects.</p>
+            <p>I began with HTML and CSS, mastering the basics of structuring web pages and styling them effectively. Learning to create responsive designs and ensuring cross-browser compatibility were crucial skills that I developed early on.</p>
+            <p>FreeCodeCamp has not only provided me with technical skills but has also instilled a passion for continuous learning and improvement. The hands-on experience and practical applications of the curriculum have prepared me to take on new challenges in the tech industry with confidence.
+            </p>
+            <p>Here are the mains things I will review in this document.</p>
+            <ul>
+                <li>HTML</li>
+                <li>HTML Examples</li>
+                <li>CSS</li>
+                <li>CSS Examples</li>
+            </ul>
+        </section>
+        <section class = "main-section" id = "HTML">
+            <header>HTML</header>
+            <p>HTML (HyperText Markup Language) is the foundation of web development. It is the standard language used to create web pages and web applications. HTML provides the basic structure of a webpage, which is then enhanced and modified by other technologies like CSS (Cascading Style Sheets) and JavaScript. HTML uses a system of tags to define elements like headings, paragraphs, links, images, and more, allowing developers to build structured content for the web.</p>
+            <p>This is usually more focused on layout and types of elements. I found it relatively easy to pick up, however, there were small intracies that I still am not fully sure about.</p>
+            <p>Main Concepts People Often Struggle With in HTML</p>
+            <ul>
+                <li>Understanding the HTML Document Structure: Grasping the basic structure of an HTML document <code>&lt;!DOCTYPE html&gt;</code>
+                <li>Semantic Elements: Differentiating between semantic elements (like <code>&lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, &lt;section&gt;</code>) and non-semantic elements (like <code>&lt;div&gt; and &lt;span&gt;</code>), and understanding why semantics matter for accessibility and SEO..</li>
+            </ul>
+        </section>
+        <section class = "main-section" id = "HTML_Example">
+            <header>HTML Example</header>
+            <code id = "example">
+                &lt;html lang=&quot;en&quot;&gt;
+                &lt;head&gt;
+                    &lt;meta charset=&quot;UTF-8&quot;&gt;
+                    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                    &lt;title&gt;My First HTML Page&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;!-- Header Section --&gt;
+                    &lt;header&gt;
+                        &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+                        &lt;nav&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/nav&gt;
+                    &lt;/header&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </section>
+        <section class = "main-section" id = "CSS">
+            <header>CSS</header>
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation and layout of web pages. It works alongside HTML to enhance the appearance of web content by applying styles to elements. CSS allows you to define how elements should be displayed, including aspects like colors, fonts, spacing, and positioning.
+            </p>
+            <p>This was the topic I struggled with the most, especially as there was a lot more variety in content when it came to knowing how to style elements.</p>
+            <p>CSS can be challenging for many, especially when dealing with complex layouts and responsive designs. Here are some common areas where people often struggle:
+            </p>
+            <ul>
+                <li>Understanding Box Model: The CSS box model, which includes margins, borders, padding, and content, can be confusing. Knowing how these components interact affects element sizing and layout.
+                </li>
+                <li>Positioning Elements: CSS positioning properties (static, relative, absolute, fixed, sticky) can be tricky to master. Understanding how to use these effectively to place elements where you want them on the page requires practice.
+                </li>
+                <li>Responsive Design: Creating layouts that work well on different screen sizes involves using media queries, flexible grids, and responsive units. Ensuring designs adapt properly across devices can be challenging.
+                </li>
+            </ul>
+        </section>
+        <section class = "main-section" id = "CSS_Example">
+            <header>CSS Example</header>
+            <code id = "example">
+                body &#123;
+                    margin: 0;
+                    padding: 0;
+                    font-family: Arial, sans-serif;
+                &#125;
+                header &#123;
+                    background-color: #333;
+                    color: white;
+                    padding: 20px;
+                    text-align: center;
+                &#125;
+                header h1 &#123;
+                    margin: 0;
+                &#125;
+                </code>
+        </section>
+    </main>
+</body>
+</html>
+
+<!-- You can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation)t
+Within the #main-doc element, you can see several section elements, each with a class of main-section. There should be a minimum of five
+The first element within each .main-section should be a header element, which contains text that describes the topic of that section.
+Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java")
+The .main-section elements should contain at least ten p elements total (not each)
+The .main-section elements should contain at least five code elements total (not each)
+The .main-section elements should contain at least five li items total (not each)
+You can see a nav element with a corresponding id="navbar"
+The navbar element should contain one header element which contains text that describes the topic of the technical documentation
+Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section
+The header element in the #navbar must come before any link (a) elements in the navbar
+Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world")
+When you click on a navbar element, the page should navigate to the corresponding section of the #main-doc element (e.g. If you click on a .nav-link element that contains the text "Hello world", the page navigates to a section element with that id, and contains the corresponding header)
+On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user
+Your technical documentation should use at least one media query
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS -->
+
